@@ -40,4 +40,5 @@ This course covers introductory and intermediate microeconomics following the st
 | [M19](modules/module-19/M19.L01-cost-functions-short-long-run.md) | Costs, Competitive Supply, and Industry Equilibrium | 5 |
 | [M20](modules/module-20/M20.L01-monopoly-formal-welfare-loss.md) | Monopoly and Game Theory (Advanced) | 6 |
 | [M21](modules/module-21/M21.L01-adverse-selection-lemons.md) | Information Asymmetry and Synthesis | 5 |
-| [📝 Quizzes](quizzes/) | 315 practice questions across all 12 introductory modules | 12 modules |
+| [📝 Quizzes](quizzes/) | 315 practice questions across all 12 introductory modules — multiple choice, calculation, and short answer | 12 modules |
+| [🃏 Flashcards](flashcards.md) | 315 interactive flashcards — tap to flip, filter by module or question type, works on any device | All modules |
