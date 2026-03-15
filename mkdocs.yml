@@ -112,3 +112,18 @@ nav:
     - "Trade Barriers: Tariffs, Quotas, and Their Effects": modules/module-12/M12.L03-trade-barriers-tariffs-quotas-effects.md
     - "Australia and International Trade: Agreements and Policy": modules/module-12/M12.L04-australia-international-trade-agreements-policy.md
     - "Synthesis: What Have We Learnt? Key Micro Debates": modules/module-12/M12.L05-synthesis-key-micro-debates.md
+  - "📝 Quizzes":
+    - "Quiz Overview": quizzes/index.md
+    - "M01 — Introduction: Scarcity and Choice": quizzes/module-01-quiz.md
+    - "M02 — Demand and Willingness to Pay": quizzes/module-02-quiz.md
+    - "M03 — Production and Costs": quizzes/module-03-quiz.md
+    - "M04 — Supply and Market Equilibrium": quizzes/module-04-quiz.md
+    - "M05 — Economic Surplus and Elasticity": quizzes/module-05-quiz.md
+    - "M06 — Market Equilibrium and Perfect Competition": quizzes/module-06-quiz.md
+    - "M07 — Monopoly": quizzes/module-07-quiz.md
+    - "M08 — Game Theory and Oligopoly": quizzes/module-08-quiz.md
+    - "M09 — Price Regulation, Taxes, and Subsidies": quizzes/module-09-quiz.md
+    - "M10 — Externalities and Market Failure": quizzes/module-10-quiz.md
+    - "M11 — Public Goods and Common Resources": quizzes/module-11-quiz.md
+    - "M12 — International Trade and Synthesis": quizzes/module-12-quiz.md
+  - "🃏 Flashcards": flashcards.md
