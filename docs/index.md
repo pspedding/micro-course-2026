@@ -31,6 +31,13 @@ This course covers introductory and intermediate microeconomics following the st
 | [M10](modules/module-10/M10.L01-externalities-negative-positive.md) | Externalities and Market Failure | 5 |
 | [M11](modules/module-11/M11.L01-rivalry-excludability-four-types-goods.md) | Public Goods and Common Resources | 5 |
 | [M12](modules/module-12/M12.L01-comparative-advantage-revisited-free-trade.md) | International Trade and Synthesis | 5 |
-| M13–M21 | Intermediate Microeconomics (ECOS2001) — *coming soon* | 48 |
-
-> *Modules 01–12 (ECON1001 Introductory) are complete. Modules 13–21 (ECOS2001 Intermediate) are in progress.*
+| [M13](modules/module-13/M13.L01-budget-constraints.md) | Budget Constraints, Preferences, and Utility | 5 |
+| [M14](modules/module-14/M14.L01-optimal-consumer-choice.md) | Consumer Choice and Demand | 5 |
+| [M15](modules/module-15/M15.L01-slutsky-equation.md) | Comparative Statics and Demand Theory | 5 |
+| [M16](modules/module-16/M16.L01-intertemporal-choice.md) | Applications of Consumer Theory | 5 |
+| [M17](modules/module-17/M17.L01-edgeworth-box-endowments.md) | Exchange Economy and General Equilibrium | 5 |
+| [M18](modules/module-18/M18.L01-technology-production-sets.md) | Technology, Production, and Profit Maximisation | 5 |
+| [M19](modules/module-19/M19.L01-cost-functions-short-long-run.md) | Costs, Competitive Supply, and Industry Equilibrium | 5 |
+| [M20](modules/module-20/M20.L01-monopoly-formal-welfare-loss.md) | Monopoly and Game Theory (Advanced) | 6 |
+| [M21](modules/module-21/M21.L01-adverse-selection-lemons.md) | Information Asymmetry and Synthesis | 5 |
+| [📝 Quizzes](quizzes/) | 315 practice questions across all 12 introductory modules | 12 modules |

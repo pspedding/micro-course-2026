@@ -127,3 +127,58 @@ nav:
     - "M11 — Public Goods and Common Resources": quizzes/module-11-quiz.md
     - "M12 — International Trade and Synthesis": quizzes/module-12-quiz.md
   - "🃏 Flashcards": flashcards.md
+  - "Module 13 — Budget Constraints, Preferences, and Utility":
+    - "Budget Constraints: The Consumer's Choice Set": modules/module-13/M13.L01-budget-constraints.md
+    - "Preferences and Indifference Curves": modules/module-13/M13.L02-preferences-indifference-curves.md
+    - "Properties of Preferences: Convexity, Monotonicity, and More": modules/module-13/M13.L03-properties-of-preferences.md
+    - "Utility Functions: Ordinal Representation of Preferences": modules/module-13/M13.L04-utility-functions.md
+    - "Special Preferences: Perfect Substitutes, Complements, and Cobb-Douglas": modules/module-13/M13.L05-special-preferences-cobb-douglas.md
+  - "Module 14 — Consumer Choice and Demand":
+    - "Optimal Consumer Choice: Utility Maximisation": modules/module-14/M14.L01-optimal-consumer-choice.md
+    - "Interior and Corner Solutions": modules/module-14/M14.L02-interior-corner-solutions.md
+    - "Deriving the Demand Curve from Utility Maximisation": modules/module-14/M14.L03-deriving-demand-from-utility.md
+    - "Income and Substitution Effects: Normal and Inferior Goods": modules/module-14/M14.L04-income-substitution-effects.md
+    - "Revealed Preference and the Weak Axiom": modules/module-14/M14.L05-revealed-preference.md
+  - "Module 15 — Comparative Statics and Demand Theory":
+    - "The Slutsky Equation: Decomposing Price Effects": modules/module-15/M15.L01-slutsky-equation.md
+    - "Hicksian (Compensated) vs Marshallian (Ordinary) Demand": modules/module-15/M15.L02-hicksian-vs-marshallian-demand.md
+    - "Income Consumption Curves and Engel Curves": modules/module-15/M15.L03-income-consumption-engel-curves.md
+    - "Price Consumption Curves and the Demand Function": modules/module-15/M15.L04-price-consumption-curves.md
+    - "Compensating and Equivalent Variation: Welfare Measurement": modules/module-15/M15.L05-compensating-equivalent-variation.md
+  - "Module 16 — Applications of Consumer Theory":
+    - "Intertemporal Choice: Saving and Borrowing": modules/module-16/M16.L01-intertemporal-choice.md
+    - "Labour-Leisure Choice and Labour Supply": modules/module-16/M16.L02-labour-leisure-choice.md
+    - "Taxes and Subsidies in Consumer Theory": modules/module-16/M16.L03-taxes-subsidies-consumer-theory.md
+    - "Uncertainty and Expected Utility": modules/module-16/M16.L04-uncertainty-expected-utility.md
+    - "Risk Aversion and Insurance": modules/module-16/M16.L05-risk-aversion-insurance.md
+  - "Module 17 — Exchange Economy and General Equilibrium":
+    - "The Edgeworth Box and Endowments": modules/module-17/M17.L01-edgeworth-box-endowments.md
+    - "Pareto Efficiency and the Contract Curve": modules/module-17/M17.L02-pareto-efficiency-contract-curve.md
+    - "Competitive Equilibrium in an Exchange Economy": modules/module-17/M17.L03-competitive-equilibrium-exchange.md
+    - "The First and Second Welfare Theorems": modules/module-17/M17.L04-welfare-theorems.md
+    - "Market Failure and the Limits of the First Welfare Theorem": modules/module-17/M17.L05-market-failure-limits-welfare.md
+  - "Module 18 — Technology, Production, and Profit Maximisation":
+    - "Technology and Production Sets": modules/module-18/M18.L01-technology-production-sets.md
+    - "Isoquants, Returns to Scale, and Technical Efficiency": modules/module-18/M18.L02-isoquants-returns-to-scale.md
+    - "Cost Minimisation: The Isocost-Isoquant Approach": modules/module-18/M18.L03-cost-minimisation-isocost-isoquant.md
+    - "Profit Maximisation and the Competitive Firm": modules/module-18/M18.L04-profit-maximisation-competitive-firm.md
+    - "Short-Run and Long-Run Firm Behaviour": modules/module-18/M18.L05-short-run-long-run-firm-behaviour.md
+  - "Module 19 — Costs, Competitive Supply, and Industry Equilibrium":
+    - "Cost Functions: Short-Run and Long-Run": modules/module-19/M19.L01-cost-functions-short-long-run.md
+    - "The Competitive Firm's Supply Decision": modules/module-19/M19.L02-competitive-firm-supply.md
+    - "Industry Supply and Partial Equilibrium": modules/module-19/M19.L03-industry-supply-partial-equilibrium.md
+    - "Producer Surplus and Profit in Competitive Markets": modules/module-19/M19.L04-producer-surplus-competitive-markets.md
+    - "Long-Run Industry Equilibrium and Zero Profit": modules/module-19/M19.L05-long-run-industry-equilibrium.md
+  - "Module 20 — Monopoly and Game Theory (Advanced)":
+    - "Monopoly: Formal Treatment and Welfare Loss": modules/module-20/M20.L01-monopoly-formal-welfare-loss.md
+    - "Price Discrimination: Formal Analysis": modules/module-20/M20.L02-price-discrimination-formal.md
+    - "Static Games: Nash Equilibrium and Dominant Strategies": modules/module-20/M20.L03-static-games-nash-equilibrium.md
+    - "Mixed Strategies and Existence of Nash Equilibrium": modules/module-20/M20.L04-mixed-strategies-nash.md
+    - "Sequential Games: Backward Induction and Stackelberg": modules/module-20/M20.L05-sequential-games-stackelberg.md
+    - "Oligopoly Models: Cournot and Bertrand Competition": modules/module-20/M20.L06-cournot-bertrand-oligopoly.md
+  - "Module 21 — Information Asymmetry and Synthesis":
+    - "Adverse Selection: The Market for Lemons": modules/module-21/M21.L01-adverse-selection-lemons.md
+    - "Moral Hazard and Principal-Agent Problems": modules/module-21/M21.L02-moral-hazard-principal-agent.md
+    - "Signalling and Screening": modules/module-21/M21.L03-signalling-screening.md
+    - "Market Design: Auctions and Matching": modules/module-21/M21.L04-market-design-auctions-matching.md
+    - "Synthesis: Key Themes in Intermediate Microeconomics": modules/module-21/M21.L05-synthesis-intermediate-microeconomics.md
