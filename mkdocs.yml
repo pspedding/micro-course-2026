@@ -1,0 +1,113 @@
+site_name: Microeconomics 2026
+site_description: Introductory + Intermediate Microeconomics — USYD-aligned self-study course
+site_author: Microeconomics 2026
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - "Module 01 — Introduction: Scarcity, Choice, and the Economic Method":
+    - "What is Economics? Scarcity, Choice, and Opportunity Cost": modules/module-01/M01.L01-what-is-economics-scarcity-choice.md
+    - "The Production Possibilities Frontier: Trade-offs and Economic Growth": modules/module-01/M01.L02-production-possibilities-frontier.md
+    - "Comparative Advantage and Gains from Trade": modules/module-01/M01.L03-comparative-advantage-gains-from-trade.md
+    - "Economic Reasoning: Positive vs Normative, Models, and Fallacies": modules/module-01/M01.L04-economic-reasoning-models-fallacies.md
+    - "The Market Economy: Prices, Incentives, and the Invisible Hand": modules/module-01/M01.L05-market-economy-prices-incentives.md
+  - "Module 02 — Demand and Willingness to Pay":
+    - "The Demand Curve: Law of Demand and Individual Demand": modules/module-02/M02.L01-demand-curve-law-of-demand.md
+    - "Willingness to Pay and Consumer Surplus": modules/module-02/M02.L02-willingness-to-pay-consumer-surplus.md
+    - "Shifts in Demand: Determinants and Comparative Statics": modules/module-02/M02.L03-shifts-in-demand-determinants.md
+    - "Market Demand: Horizontal Summation of Individual Demands": modules/module-02/M02.L04-market-demand-horizontal-summation.md
+    - "Demand in Australian Markets: Case Studies": modules/module-02/M02.L05-demand-australian-markets.md
+  - "Module 03 — Production and Costs":
+    - "The Production Function: Total, Average, and Marginal Product": modules/module-03/M03.L01-production-function-total-average-marginal-product.md
+    - "The Law of Diminishing Marginal Returns": modules/module-03/M03.L02-law-of-diminishing-marginal-returns.md
+    - "Short-Run Costs: Fixed, Variable, Average, and Marginal": modules/module-03/M03.L03-short-run-costs-fixed-variable-average-marginal.md
+    - "Long-Run Costs: Economies and Diseconomies of Scale": modules/module-03/M03.L04-long-run-costs-economies-diseconomies-scale.md
+    - "Cost Curves in Practice: Australian Firm Examples": modules/module-03/M03.L05-cost-curves-australian-firm-examples.md
+  - "Module 04 — Supply and Market Equilibrium":
+    - "The Supply Curve: Law of Supply and Firm Supply": modules/module-04/M04.L01-supply-curve-law-of-supply.md
+    - "Shifts in Supply: Determinants and Comparative Statics": modules/module-04/M04.L02-shifts-in-supply-determinants.md
+    - "Market Equilibrium: Supply, Demand, and Price": modules/module-04/M04.L03-market-equilibrium-supply-demand-price.md
+    - "Comparative Statics: Analysing Shifts in Supply and Demand": modules/module-04/M04.L04-comparative-statics-shifts-supply-demand.md
+    - "Markets in Disequilibrium: Shortages and Surpluses": modules/module-04/M04.L05-markets-in-disequilibrium-shortages-surpluses.md
+    - "Market Adjustment: The Role of Prices as Signals": modules/module-04/M04.L06-market-adjustment-prices-as-signals.md
+  - "Module 05 — Economic Surplus and Elasticity":
+    - "Consumer Surplus: Concept and Calculation": modules/module-05/M05.L01-consumer-surplus-concept-calculation.md
+    - "Producer Surplus and Total Economic Surplus": modules/module-05/M05.L02-producer-surplus-total-economic-surplus.md
+    - "Price Elasticity of Demand: Definition and Calculation": modules/module-05/M05.L03-price-elasticity-of-demand-definition-calculation.md
+    - "Elasticity Along the Demand Curve and Revenue Effects": modules/module-05/M05.L04-elasticity-along-demand-curve-revenue-effects.md
+    - "Price Elasticity of Supply; Income and Cross-Price Elasticity": modules/module-05/M05.L05-price-elasticity-supply-income-cross-price-elasticity.md
+    - "Elasticity Applications: Taxes, Housing, and Australian Markets": modules/module-05/M05.L06-elasticity-applications-taxes-housing-australia.md
+  - "Module 06 — Market Equilibrium and Perfect Competition":
+    - "Market Structures Overview: The Four Models": modules/module-06/M06.L01-market-structures-overview-four-models.md
+    - "Perfect Competition: Characteristics and the Price-Taking Firm": modules/module-06/M06.L02-perfect-competition-characteristics-price-taking-firm.md
+    - "Profit Maximisation: The MR = MC Rule": modules/module-06/M06.L03-profit-maximisation-mr-equals-mc-rule.md
+    - "Short-Run Supply and the Shutdown Decision": modules/module-06/M06.L04-short-run-supply-shutdown-decision.md
+    - "Long-Run Equilibrium in Perfect Competition: Entry, Exit, and Normal Profit": modules/module-06/M06.L05-long-run-equilibrium-perfect-competition-entry-exit.md
+  - "Module 07 — Monopoly":
+    - "Monopoly: Sources of Market Power and Barriers to Entry": modules/module-07/M07.L01-monopoly-sources-market-power-barriers-entry.md
+    - "The Monopolist's Demand and Marginal Revenue": modules/module-07/M07.L02-monopolist-demand-marginal-revenue.md
+    - "Profit Maximisation for a Monopolist": modules/module-07/M07.L03-profit-maximisation-monopolist.md
+    - "Monopoly vs Perfect Competition: Deadweight Loss": modules/module-07/M07.L04-monopoly-vs-perfect-competition-deadweight-loss.md
+    - "Price Discrimination: First, Second, and Third Degree": modules/module-07/M07.L05-price-discrimination-first-second-third-degree.md
+    - "Monopoly Regulation in Australia: ACCC and Competition Policy": modules/module-07/M07.L06-monopoly-regulation-australia-accc.md
+  - "Module 08 — Game Theory and Oligopoly":
+    - "Strategic Interaction and Game Theory Basics": modules/module-08/M08.L01-strategic-interaction-game-theory-basics.md
+    - "The Prisoners' Dilemma and Nash Equilibrium": modules/module-08/M08.L02-prisoners-dilemma-nash-equilibrium.md
+    - "Oligopoly: Characteristics and the Interdependence Problem": modules/module-08/M08.L03-oligopoly-characteristics-interdependence.md
+    - "Collusion, Cartels, and the ACCC": modules/module-08/M08.L04-collusion-cartels-accc.md
+    - "First-Mover Advantage and Sequential Games": modules/module-08/M08.L05-first-mover-advantage-sequential-games.md
+  - "Module 09 — Price Regulation, Taxes, and Subsidies":
+    - "Price Ceilings: Rent Control and Shortages": modules/module-09/M09.L01-price-ceilings-rent-control-shortages.md
+    - "Price Floors: Minimum Wages and Surpluses": modules/module-09/M09.L02-price-floors-minimum-wages-surpluses.md
+    - "Taxes: Incidence, Deadweight Loss, and the Role of Elasticity": modules/module-09/M09.L03-taxes-incidence-deadweight-loss-elasticity.md
+    - "Subsidies: Effects on Price, Quantity, and Welfare": modules/module-09/M09.L04-subsidies-effects-price-quantity-welfare.md
+    - "Australian Policy Applications: Carbon Price, Fuel Excise, Rent Assistance": modules/module-09/M09.L05-australian-policy-carbon-fuel-excise-rent.md
+  - "Module 10 — Externalities and Market Failure":
+    - "Externalities: Negative and Positive": modules/module-10/M10.L01-externalities-negative-positive.md
+    - "The Coase Theorem and Private Solutions": modules/module-10/M10.L02-coase-theorem-private-solutions.md
+    - "Government Solutions: Pigouvian Taxes and Subsidies": modules/module-10/M10.L03-government-solutions-pigouvian-taxes-subsidies.md
+    - "Environmental Policy in Australia: Carbon, Emissions, and Efficiency": modules/module-10/M10.L04-environmental-policy-australia-carbon-emissions.md
+    - "Network Externalities and Technology Markets": modules/module-10/M10.L05-network-externalities-technology-markets.md
+  - "Module 11 — Public Goods and Common Resources":
+    - "Rivalry and Excludability: The Four Types of Goods": modules/module-11/M11.L01-rivalry-excludability-four-types-goods.md
+    - "Public Goods and the Free-Rider Problem": modules/module-11/M11.L02-public-goods-free-rider-problem.md
+    - "Common Resources and the Tragedy of the Commons": modules/module-11/M11.L03-common-resources-tragedy-of-commons.md
+    - "Government Provision of Public Goods: Cost-Benefit Analysis": modules/module-11/M11.L04-government-provision-public-goods-cost-benefit.md
+    - "Australian Examples: National Parks, Roads, and Broadband": modules/module-11/M11.L05-australian-examples-parks-roads-broadband.md
+  - "Module 12 — International Trade and Synthesis":
+    - "Comparative Advantage Revisited: The Case for Free Trade": modules/module-12/M12.L01-comparative-advantage-revisited-free-trade.md
+    - "Winners and Losers from Trade: Gains and Distributional Effects": modules/module-12/M12.L02-winners-losers-from-trade-gains-distributional.md
+    - "Trade Barriers: Tariffs, Quotas, and Their Effects": modules/module-12/M12.L03-trade-barriers-tariffs-quotas-effects.md
+    - "Australia and International Trade: Agreements and Policy": modules/module-12/M12.L04-australia-international-trade-agreements-policy.md
+    - "Synthesis: What Have We Learnt? Key Micro Debates": modules/module-12/M12.L05-synthesis-key-micro-debates.md
