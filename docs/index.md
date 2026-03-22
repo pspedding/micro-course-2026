@@ -42,3 +42,62 @@ This course covers introductory and intermediate microeconomics following the st
 | [M21](modules/module-21/M21.L01-adverse-selection-lemons.md) | Information Asymmetry and Synthesis | 5 |
 | [📝 Quizzes](quizzes/) | 315 practice questions across all 12 introductory modules — multiple choice, calculation, and short answer | 12 modules |
 | [🃏 Flashcards](flashcards.md) | 315 interactive flashcards — tap to flip, filter by module or question type, works on any device | All modules |
+
+
+---
+
+## 🎓 Ask a Question
+
+<!-- Economics AI Chat Widget -->
+<div id="econ-chat-widget" style="
+  margin: 2rem 0;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+">
+  <h3 style="margin:0 0 0.5rem 0; font-size:1rem; color:#2d3748;">🎓 Ask a Question</h3>
+  <p style="margin:0 0 1rem 0; font-size:0.85rem; color:#718096;">Ask anything about the course content — concepts, calculations, Australian examples.</p>
+  <div style="display:flex; gap:0.5rem;">
+    <input id="econ-chat-input" type="text"
+      placeholder="e.g. What is the IS-LM model used for?"
+      style="flex:1; padding:0.6rem 0.9rem; border:1px solid #cbd5e0; border-radius:8px; font-size:0.9rem; outline:none;"
+      onkeydown="if(event.key==='Enter') econAsk()"
+    />
+    <button onclick="econAsk()" id="econ-chat-btn" style="
+      padding:0.6rem 1.2rem; background:#5c6bc0; color:white;
+      border:none; border-radius:8px; cursor:pointer; font-size:0.9rem; font-weight:600;
+      white-space:nowrap;
+    ">Ask →</button>
+  </div>
+  <div id="econ-chat-response" style="
+    margin-top:1rem; padding:1rem; background:#f7fafc;
+    border-radius:8px; font-size:0.9rem; line-height:1.6;
+    color:#2d3748; display:none;
+  "></div>
+</div>
+<script>
+async function econAsk() {
+  const input = document.getElementById('econ-chat-input');
+  const btn = document.getElementById('econ-chat-btn');
+  const resp = document.getElementById('econ-chat-response');
+  const q = input.value.trim();
+  if (!q) return;
+  btn.textContent = '...'; btn.disabled = true;
+  resp.style.display = 'block';
+  resp.textContent = 'Thinking...';
+  try {
+    const r = await fetch('https://econ-chat.dgg5dknmth.workers.dev', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({question: q})
+    });
+    const d = await r.json();
+    resp.innerHTML = d.answer.replace(/\n/g,'<br>');
+  } catch(e) {
+    resp.textContent = 'Error: could not reach the AI. Please try again.';
+  }
+  btn.textContent = 'Ask →'; btn.disabled = false;
+}
+</script>
