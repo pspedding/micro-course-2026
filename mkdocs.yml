@@ -36,6 +36,10 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - "🎯 Exam Prep":
+    - "Formula Sheet": exam-prep/formula-sheet.md
+    - "Mock IST": exam-prep/mock-ist.md
+    - "Exam Tips & Traps": exam-prep/exam-tips.md
   - "📊 Key Diagrams": diagrams.md
   - "Module 01 — Introduction: Scarcity, Choice, and the Economic Method":
     - "What is Economics? Scarcity, Choice, and Opportunity Cost": modules/module-01/M01.L01-what-is-economics-scarcity-choice.md
