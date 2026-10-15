@@ -92,7 +92,7 @@ window.MathJax = {
 
   <!-- Access code row — entered once, kept in memory only, never stored or embedded -->
   <div id="econ-access-row" style="display:flex;gap:0.5rem;margin-bottom:0.5rem;align-items:center;">
-    <input id="econ-access-code" type="password"
+    <input id="econ-access-code" type="password" autocomplete="off"
       placeholder="Access code"
       style="width:140px;padding:0.5rem 0.7rem;border:1px solid #cbd5e0;border-radius:8px;font-size:0.9rem;outline:none;"
     />
