@@ -90,6 +90,15 @@ window.MathJax = {
   <!-- Conversation thread -->
   <div id="econ-chat-thread" style="max-height:380px;overflow-y:auto;margin-bottom:0.8rem;display:flex;flex-direction:column;gap:0.3rem;"></div>
 
+  <!-- Access code row — entered once, kept in memory only, never stored or embedded -->
+  <div id="econ-access-row" style="display:flex;gap:0.5rem;margin-bottom:0.5rem;align-items:center;">
+    <input id="econ-access-code" type="password"
+      placeholder="Access code"
+      style="width:140px;padding:0.5rem 0.7rem;border:1px solid #cbd5e0;border-radius:8px;font-size:0.9rem;outline:none;"
+    />
+    <span style="font-size:0.8rem;color:#718096;">Enter the access code provided to you</span>
+  </div>
+
   <!-- Input row -->
   <div style="display:flex; gap:0.5rem;">
     <input id="econ-chat-input" type="text"
@@ -122,7 +131,7 @@ window.MathJax = {
   // var WORKER='https://econ-chat.dgg5dknmth.workers.dev';
 
   var MAX_TURNS=10, MAX_Q=4000;
-  var history=[], mode='explain';
+  var history=[], mode='explain', accessToken='';
 
   function estimateTokens(s){ return Math.ceil((s||'').length/4); }
 
@@ -191,6 +200,14 @@ window.MathJax = {
     var resp=document.getElementById('econ-chat-response');
     var q=(input&&input.value||'').trim();
     if(!q) return;
+    // Read access code from field each time — kept in memory only
+    var codeInput=document.getElementById('econ-access-code');
+    if(codeInput) accessToken=codeInput.value.trim();
+    if(!accessToken){
+      if(resp){resp.style.display='block';resp.textContent='Please enter your access code.';}
+      if(codeInput) codeInput.focus();
+      return;
+    }
     if(q.length>MAX_Q){
       if(resp){resp.style.display='block';resp.textContent='Question too long (max 4,000 characters).';}
       return;
@@ -204,7 +221,7 @@ window.MathJax = {
     ctx.weakModules=getWeakModules();
     var payload={question:q,mode:mode,messages:trimHistory(history),context:ctx};
 
-    fetch(WORKER,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)})
+    fetch(WORKER,{method:'POST',headers:{'Content-Type':'application/json','Authorization':'Bearer '+accessToken},body:JSON.stringify(payload)})
       .then(function(r){return r.json();})
       .then(function(d){
         if(d.error) throw new Error(d.error);
