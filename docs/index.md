@@ -52,6 +52,17 @@ This course covers introductory and intermediate microeconomics following the st
 <!-- CDN: DOMPurify (XSS sanitisation) + marked (markdown rendering) -->
 <script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath:  [["\(", "\)"]],
+    displayMath: [["\[", "\]"]],
+    processEscapes: true
+  },
+  options: { skipHtmlTags: ["script","noscript","style","textarea","pre"] }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async></script>
 
 <div id="econ-chat-widget" style="
   margin: 2rem 0;
@@ -128,7 +139,7 @@ This course covers introductory and intermediate microeconomics following the st
     var mm=p.match(/module-([0-9]+)/i);
     var lm=p.match(/(M[0-9]{2}[-.]L[0-9]{2}[^/]*)/i);
     return {
-      course: cm ? cm[0].replace(/-course(-[0-9]+)?/,'') : null,
+      course: cm ? ({'macro-course':'macroeconomics','micro-course':'microeconomics','econ-course':'econometrics'})[cm[0]]||cm[0].replace(/-course(-[0-9]+)?/,'') : null,
       module: mm ? 'M'+(mm[1].length<2?'0':'')+mm[1] : null,
       lesson: lm ? lm[1] : null
     };
