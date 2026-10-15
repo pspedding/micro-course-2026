@@ -150,7 +150,13 @@ This course covers introductory and intermediate microeconomics following the st
   }
 
   function renderSafe(el,text){
-    var html=marked.parse(text);
+    var t=text
+      .split("\[").join("DLOPEN").split("\]").join("DLCLOSE")
+      .split("\(").join("ILOPEN").split("\)").join("ILCLOSE");
+    var html=marked.parse(t);
+    html=html
+      .split("DLOPEN").join("\[").split("DLCLOSE").join("\]")
+      .split("ILOPEN").join("\(").split("ILCLOSE").join("\)");
     el.innerHTML=DOMPurify.sanitize(html,{USE_PROFILES:{html:true}});
     if(window.MathJax&&MathJax.typesetPromise) MathJax.typesetPromise([el]).catch(function(){});
   }
